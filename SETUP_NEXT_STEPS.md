@@ -8,23 +8,20 @@ The local collaboration repository is ready at:
 
 ## 1. Create A Private GitHub Repository
 
-Create an empty private repository on GitHub, for example:
+The GitHub repository for this workspace is:
 
 ```text
-codex-collab
+https://github.com/zt97152023-ai/CellMem.git
 ```
-
-Do not initialize it with README, `.gitignore`, or license because this local repository already has files.
 
 ## 2. Push From Mac
 
-Replace the URL with your real repository URL:
-
 ```bash
 cd /Users/zhangtian/Downloads/recent_deconvolution_methods_package/codex_collab
-git remote add origin https://github.com/YOUR_USERNAME/codex-collab.git
 git push -u origin main
 ```
+
+If push asks for GitHub credentials, authenticate this Mac first. The `origin` remote is already configured.
 
 ## 3. Clone On Windows
 
@@ -32,8 +29,8 @@ On Windows PowerShell:
 
 ```powershell
 cd C:\Users\YOUR_WINDOWS_USERNAME\Documents
-git clone https://github.com/YOUR_USERNAME/codex-collab.git
-cd codex-collab
+git clone https://github.com/zt97152023-ai/CellMem.git
+cd CellMem
 ```
 
 ## 4. Start Windows Codex
@@ -57,4 +54,3 @@ git add .
 git commit -m "Update collaboration state"
 git push
 ```
-
