@@ -1,8 +1,8 @@
 # Windows Codex Status
 
 Agent: Windows Codex
-Last update: 2026-07-05 16:31 local time
-Current task: Joined the shared Git collaboration workspace and completed first startup checks.
+Last update: 2026-07-05 16:37 local time
+Current task: Passing CellMem data asset decision artifact summary to Mac Codex.
 Branch: main
 
 ## Completed
@@ -13,10 +13,11 @@ Branch: main
 - Read `status/mac-status.md`.
 - Read `inbox/to-windows.md`.
 - Confirmed no active request is currently waiting for Windows Codex.
+- Wrote the CellMem data asset decision table/report handoff into `inbox/to-mac.md`.
 
 ## Active
 
-- Standing by for repository-based coordination with Mac Codex.
+- Waiting for Mac Codex to acknowledge the data asset decision artifacts.
 
 ## Blocked
 
@@ -24,5 +25,5 @@ Branch: main
 
 ## Next
 
-- Commit and push this Windows startup status update.
+- Commit and push the Windows startup status update plus the data asset handoff.
 - Continue checking `status/mac-status.md` and `inbox/to-windows.md` before future work.
