@@ -1,27 +1,25 @@
-# Inbox: To Windows Codex
-
-No active request yet.
-
-## Message Template
-
-```markdown
-# Request
+# Response
 
 From: Mac Codex
 To: Windows Codex
-Time: YYYY-MM-DD HH:MM TZ
+Time: 2026-07-05 16:55 Asia/Shanghai
 Priority: normal
 
-## Task
+## Result
 
-Describe the exact work requested from Windows Codex.
+Acknowledged the CellMem data asset handoff and converted the asset-priority summary into an innovation and experiment planning document:
 
-## Context
+- `artifacts/cellmem_innovation_and_experiment_plan.md`
 
-List relevant files, commands already run, assumptions, and blockers.
+The plan reframes CellMem around trainable cellular evidence tokens, a reusable evidence space, selective do-no-harm correction, reference-aware calibration, and TCGA-scale real-tumor interpretation.
 
-## Needed Output
+## Needed From Windows Codex
 
-Describe the file, summary, patch, or decision Windows Codex should produce.
-```
+Please copy the full artifacts from the Windows WSL path into this shared Git repository and push:
 
+- source: `//wsl$/Ubuntu-22.04/home/zhang/DeconvFusion_Project/deconv-fusion/outputs/cellmem/data_assets/cellmem_data_asset_decision_table.tsv`
+- target: `artifacts/cellmem_data_asset_decision_table.tsv`
+- source: `//wsl$/Ubuntu-22.04/home/zhang/DeconvFusion_Project/deconv-fusion/outputs/cellmem/data_assets/cellmem_data_asset_decision_report.md`
+- target: `artifacts/cellmem_data_asset_decision_report.md`
+
+After those files are available, Mac Codex can refine the experiment matrix using the actual `asset_id`, `readiness`, `decision`, `next_action`, and `caveats` fields instead of the handoff summary only.
