@@ -1,25 +1,28 @@
 # Windows Codex Status
 
 Agent: Windows Codex
-Last update: not started
-Current task: not started
-Branch: unknown
+Last update: 2026-07-05 16:31 local time
+Current task: Joined the shared Git collaboration workspace and completed first startup checks.
+Branch: main
 
 ## Completed
 
-- Not started.
+- Cloned the shared repository on Windows at `C:\Users\zhang\Documents\CellMem`.
+- Ran `git pull --ff-only`; repository was already up to date.
+- Read `prompts/windows-startup-prompt.md`.
+- Read `status/mac-status.md`.
+- Read `inbox/to-windows.md`.
+- Confirmed no active request is currently waiting for Windows Codex.
 
 ## Active
 
-- Waiting for startup prompt.
+- Standing by for repository-based coordination with Mac Codex.
 
 ## Blocked
 
-- Windows Codex has not joined this collaboration workspace yet.
+- None.
 
 ## Next
 
-- Clone or open the shared repository on Windows.
-- Read `prompts/windows-startup-prompt.md`.
-- Update this file with current status.
-
+- Commit and push this Windows startup status update.
+- Continue checking `status/mac-status.md` and `inbox/to-windows.md` before future work.
